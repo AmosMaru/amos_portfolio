@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  font-size: 24px;
+  color: red;
+  justify-content: space-around;
+}
+
+#link {
+  color: blue;
+}
+
+li {
+  font-size: xx-large;
+}
+
+button {
+  padding: 20px;
+  margin: 20px;
+  border-color: blue;
+  border-width: 2px;
+  border-radius: 20%;
+}
