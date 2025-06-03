@@ -58,14 +58,6 @@ const ProjectCard = ({ project }) => (
 const Projects = () => {
   const projects = [
     {
-      name: "Raila Odinga for AU ",
-      description:
-        "An official website for Raila Odinga  AU chairmanship campaign",
-      image: "/Raila.png",
-      link: "https://www.railaodinga4auc.com/",
-      technologies: ["Tailwind CSS", "React Js", "SEO"],
-    },
-    {
       name: "NexusScale",
       description:
         "This is a website that allows users to order templates for sending messages to their loved ones, making it easier to express feelings and stay connected with their loved ones.",
@@ -73,23 +65,55 @@ const Projects = () => {
       link: "https://nexuscale.ai/",
       technologies: ["AI", "Rest Api", "FastApi"],
     },
-    {
-      name: "Hazina Africa",
-      description:
-        "Hazina Africa is a fintech startup focused on delivering AI-powered financial solutions to address diverse market needs across Africa",
-      image: "/hazina.png",
-      link: "https://hazinaafrica.com/",
-      technologies: ["Django", "Rest API"],
-    },
-  
-    {
+      {
       name: "TC4A",
       description:
         "Developing innovative solutions to address the challenges faced by African youth in accessing quality education and employment opportunities.",
       image: "/tc4a.png",
       link: "https://tc4a.africa/",
-      technologies: ["Learning Hub", "Django"]
+      technologies: ["LMS", "Django", 'React','AI']
     },
+    {
+      name: "Myhela Africa",
+      description:
+        "Myhela Africa is a fintech focused on delivering AI-powered financial solutions to address diverse market needs across Africa",
+      image: "/myhela.png",
+      link: "https://myhela.africa/",
+      technologies: ["Django", "Rest API", "AI"],
+    },
+    {
+      name: "Zaumu",
+      description:
+        "Connecting brands and content creators to create authentic and engaging content that resonates with their audience.",
+      image: "/zaumu.png",
+      link: "https://zaumu.com/",
+      technologies: ["React", "Rest API", 'AI'],
+    },
+    {
+      name: "Gyno Care",
+      description:
+        "Appointment management systems for gynecologists, obstetricians, and women's health specialists.",
+      image: "/gynocare.png",
+      link: "https://gynocare.vercel.app/",
+      technologies: ["Django", "Rest API", "AI"],
+    },
+    {
+      name: "3D chat-bot",
+      description:
+        "A 3D AI agent.",
+      image: "/3d.png",
+      link: "https://3d.kilush.com/",
+      technologies: ["Django", "Rest API", "AI"],
+    },
+    {
+      name: "Raila Odinga for AU ",
+      description:
+        "An official website for Raila Odinga  AU chairmanship campaign",
+      image: "/Raila.png",
+      link: "https://www.railaodinga4auc.com/",
+      technologies: ["Tailwind CSS", "React Js", "SEO"],
+    },
+
     // {
     //   name: "Mche",
     //   description:
@@ -98,21 +122,14 @@ const Projects = () => {
     //   link: "https://mche.africa/",
     //   technologies: ["Farmers", "RestAPi"]
     // },
-    {
-      name: "Zaumu",
-      description:
-        "Connecting brands and content creators to create authentic and engaging content that resonates with their audience.",
-      image: "/zaumu.png",
-      link: "https://zaumu.com/",
-      technologies: ["Django", "Rest API"],
-    },
+
     {
       name: "Mwamba Rugby",
       description:
         "The Mwamba Rugby website allows fans to purchase game tickets, merchandise, and manage memberships. It also includes a content management system for the admin to easily update and manage website content",
       image: "/Mwamba.png",
       link: "https://mwambarugby.com/",
-      technologies: ["Api", "Paystack"],
+      technologies: ["Ticketing", "Api", "Paystack"],
     },
    
   

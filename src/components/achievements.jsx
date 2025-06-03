@@ -51,6 +51,19 @@ const AchievementCard = ({ achievement }) => (
 const AchievementsSection = () => {
   const achievements = [
     {
+  title: "AI Masterclass Host - Virgil Africa",
+  description:
+    "Successfully hosted an AI Masterclass at Virgil Africa, teaching participants about AI agents, practical AI tools, and how to build and deploy custom AI agents for real-world use cases.",
+  image: "/ai.jpeg",
+  details: [
+    "Led a hands-on AI Masterclass at Virgil Africa",
+    "Taught core concepts of AI agents and their real-world applications",
+    "Introduced cutting-edge AI tools for productivity and automation",
+    "Guided participants through building and deploying custom AI agents",
+  ],
+},
+
+    {
       title: "Futurize Hackathon Winner - Hazina Africa",
       description:
         "Emerged victorious in the Futurize hackathon with Hazina Africa, an innovative fintech solution that leverages Vambo AI's multilingual capabilities to make financial services more accessible across Africa.",
@@ -62,6 +75,20 @@ const AchievementsSection = () => {
         "Won first place for innovative use of AI in financial inclusion",
       ],
     },
+    {
+  title: "Startup Representative - GITEX Africa, Morocco",
+  description:
+    "Represented high-impact African startups on the global stage at GITEX Africa in Marrakech, Morocco — showcasing innovation, connecting with global investors, and advocating for Africa’s tech potential.",
+  image: "/morrocco.jpeg",
+  details: [
+    "Selected to represent leading African startups at GITEX Africa 2024",
+    "Showcased innovative fintech and AI solutions to a global audience",
+    "Engaged with international investors, partners, and ecosystem builders",
+    "Highlighted the role of African youth in shaping the future of technology",
+  ],
+}
+
+    
     
   ];
 

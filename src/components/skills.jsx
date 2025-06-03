@@ -69,7 +69,8 @@ const Skillset = () => {
     { name: "CSS", icon: "/css.png" },
     { name: "Tailwind CSS", icon: "/tailwind.png" },
     { name: "Javascript", icon: "/javascript.png" },
-    ,
+    { name: "React", icon: "/react.png" },
+    { name: "PostgreSQL", icon: "/postgres.png" },
   ];
 
   return (
