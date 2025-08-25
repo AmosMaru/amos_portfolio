@@ -64,6 +64,8 @@ const Skillset = () => {
 
   const technologies = [
     { name: "Django", icon: "/django.png" },
+    { name: "Elixir", icon: "/elixir.png" },
+    { name: "Phoenix", icon: "/phoenix.png" },
     { name: "FastApi", icon: "/fastapi.png" },
     { name: "HTML", icon: "/html.png" },
     { name: "CSS", icon: "/css.png" },
