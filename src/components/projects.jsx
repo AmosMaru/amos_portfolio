@@ -74,6 +74,22 @@ const Projects = () => {
       technologies: ["LMS", "Django", 'React','AI']
     },
     {
+      name: "Fiti Bot",
+      description:
+        "This AI-powered solution is designed to enhance supply chain transparency and ensure product authenticity. It leverages cutting-edge technology to track the movement of products throughout their lifecycle and verify their authenticity, ensuring that only genuine products reach end-users.",
+      image: "./fiti_bot.png",
+      link: "https://fiti_bot.africa/",
+      technologies: ["LLMs", "Django", 'React','AI' ,"bot", "whatsapp", "telegram"]
+    },
+    {
+      name: "Callwisely",
+      description:
+        "CallWisely.ai ensures your business captures every opportunity with AI-powered phone agents that work 24/7, 365 days a year. No more dropped calls, no more lost revenue.",
+      image: "./callwisely.png",
+      link: "https://www.callwisely.ai/",
+      technologies: ["AI", "elixir", "restapi","Websocket","Twilio",'LLMs']
+    },
+    {
       name: "Myhela Africa",
       description:
         "Myhela Africa is a fintech focused on delivering AI-powered financial solutions to address diverse market needs across Africa",
